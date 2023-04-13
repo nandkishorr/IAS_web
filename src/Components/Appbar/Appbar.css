@@ -1,7 +1,7 @@
 
 .navbar-brand img {
     height: 30px; 
-    object-fit: contain; 
+    object-fit: fill; 
   }
   .container{
     max-width: 780px;
@@ -16,6 +16,7 @@
   .nav-item {
     flex: 1;
     text-align: center;
+    white-space: nowrap;
   }
   .navbar{
     margin-left: 18%;
