@@ -1,6 +1,6 @@
 import React from "react";
 import "./Appbar.css";
-import logo from "./IEEE-logo.png";
+import logo from "../../Assets/ias_logo.png";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (

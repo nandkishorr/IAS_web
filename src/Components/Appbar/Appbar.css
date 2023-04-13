@@ -1,7 +1,8 @@
 
 .navbar-brand img {
-    height: 30px; 
-    object-fit: contain; 
+    height: 35px; 
+    object-fit: fill;
+    width: 100px; 
   }
   .container{
     max-width: 780px;
