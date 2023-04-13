@@ -4,14 +4,13 @@ import logo from "./IEEE-logo.png";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
-    <div className="d-flex justify-content-center row bg-white">
-    <nav className="navbar navbar-expand-lg navbar-light bg-white">
-      <div className="container">
-        <Link className="navbar-brand text-success font-weight-bold pl-4" href="/">
-          <img src={logo} className="img-fluid" alt=""/>
+    <div>
+    <nav className="navbar navbar-expand-lg navbar-light bg-white ">
+      <div className="container-fluid">
+        <Link className="navbar-brand text-success font-weight-bold" href="/">
+          <img src={logo} alt="" />
         </Link>
         <button
-        
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -22,11 +21,11 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav pl-4">
+        <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul className="navbar-nav">
             <li className="nav-item">
               <a
-                className="nav-link active pl-4"
+                className="nav-link active"
                 aria-current="page"
                 href="https://google.com"
               >
@@ -34,32 +33,32 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link pl-4" href="https://google.com">
+              <a className="nav-link" href="https://google.com">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link pl-4" href="https://google.com">
+              <a className="nav-link" href="https://google.com">
                 Execome
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link pl-4" href="https://google.com">
+              <a className="nav-link" href="https://google.com">
                 Events
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link pl-4" href="https://google.com">
+              <a className="nav-link" href="https://google.com">
                 Gallery
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link pl-4" href="https://google.com">
+              <a className="nav-link" href="https://google.com">
                 Awards
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link pl-4" href="https://google.com">
+              <a className="nav-link" href="https://google.com">
                 Contact Us
               </a>
             </li>

@@ -1,24 +1,23 @@
-.navbar {
-    padding: 10px;
-  }
-  
-  .navbar-brand {
-    padding: 0 10px;
-  
-  }
-  
-  .navbar-nav {
-    padding: 10px;
-  }
-  
-  .nav-link {
-    padding: 5px 10px;
-  }
 
 .navbar-brand img {
-    height: 50px; 
+    height: 35px; 
     object-fit: contain; 
   }
   .container{
     max-width: 780px;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: large;
+  }
+  
+  .nav-item {
+    flex: 1;
+    text-align: center;
+  }
+  .navbar{
+    margin-left: 10%;
+    margin-right: 10%;
   }
