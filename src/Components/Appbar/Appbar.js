@@ -4,13 +4,14 @@ import logo from "./IEEE-logo.png";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
-    <div className="d-flex justify-content-center bg-white">
+    <div className="d-flex justify-content-center row bg-white">
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
-      <div className="container-fluid">
+      <div className="container">
         <Link className="navbar-brand text-success font-weight-bold pl-4" href="/">
           <img src={logo} className="img-fluid" alt=""/>
         </Link>
         <button
+        
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
