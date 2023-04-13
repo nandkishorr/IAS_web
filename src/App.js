@@ -1,16 +1,18 @@
 import React from 'react'
-import Home from './Components/Home'
+import Home from './Pages/Home'
 import {Routes,Route} from "react-router-dom"
-import About from './Components/About'
-import Contacts from './Components/Contacts'
-import Execom from './Components/Execom'
-import Gallery from './Components/Gallery'
-import Events from './Components/Events'
+import About from './Pages/About'
+import Contacts from './Pages/Contacts'
+import Execom from './Pages/Execom'
+import Gallery from './Pages/Gallery'
+import Events from './Pages/Events'
+// import Appbar from './Components/Appbar'
+import OffcanvasExample from './Components/Appbar'
 
 function App() {
   return (
    <div className='App'>
-    <div className='header'>hello world</div>
+    <div className='header'><OffcanvasExample/></div>
       <div className='main'>
         
       <Routes>
