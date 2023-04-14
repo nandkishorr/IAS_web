@@ -1,6 +1,6 @@
 import React from "react";
 import "./Appbar.css";
-import logo from "../../Assets/ias_logo.png";
+import logo from "../../Assets/images/ias_logo_only.png";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
@@ -27,38 +27,38 @@ function Navbar() {
               <a
                 className="nav-link active"
                 aria-current="page"
-                href="https://google.com"
+                href="/"
               >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://google.com">
+              <a className="nav-link" href="/about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://google.com">
+              <a className="nav-link" href="/execom">
                 Execome
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://google.com">
+              <a className="nav-link" href="/events">
                 Events
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://google.com">
+              <a className="nav-link" href="/gallery">
                 Gallery
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://google.com">
+              <a className="nav-link" href="/awards">
                 Awards
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://google.com">
+              <a className="nav-link" href="/contacs">
                 Contact Us
               </a>
             </li>
