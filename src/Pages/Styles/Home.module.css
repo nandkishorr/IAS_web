@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 .body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.55)),url(../../Assets/images/alain-pham-P_qvsF7Yodw-unsplash.jpg);
-    height: 94vh;
+    height: 92vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
