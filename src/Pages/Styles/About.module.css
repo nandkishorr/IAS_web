@@ -1,13 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 .body{
-padding: 5% 2% 0% 7%;
-height: 92vh;
+padding: 4% 2% 0% 10%;
+height: 95vh;
 width: 100%;
-background-color: rgb(14, 14, 27);
+background-color: rgb(11, 11, 19);
+position: relative;
 color: aliceblue;
 }
 .heading{
     font-family: Oswald;
     font-size: 80px;
+}
+.content{
+    padding-top: 30px;
+    font-size: 18px;
+    min-height: 500px;
+    max-width: 800px;
 
+}
+.box{
+box-sizing: border-box;
+position: absolute;
+width: 800.08px;
+height: 470px;
+left: 408.63px;
+top: 119.7px;
+border: 1.8138px solid #FFFFFF;
+border-left:none ;
+}
+.bottom{
+    float:right;
+    min-width: 200px;
+    max-height: 300px;
 }
