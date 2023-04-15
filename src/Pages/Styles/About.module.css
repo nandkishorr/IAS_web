@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 .body{
-padding: 5% 2% 0% 7%;
+padding: 4% 2% 0% 10%;
 height: 92vh;
 width: 100%;
-background-color: rgb(14, 14, 27);
+background-color: rgb(11, 11, 19);
 color: aliceblue;
 }
 .heading{
     font-family: Oswald;
     font-size: 80px;
-
 }

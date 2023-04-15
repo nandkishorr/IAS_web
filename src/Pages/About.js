@@ -1,11 +1,10 @@
 import React from 'react'
 import styles from "./Styles/About.module.css"
+import Heading from '../Components/Heading'
 function About() {
   return (
     <div className={styles.body}>
-      <div className={styles.top}>
-        <h1 className={styles.heading}>ABOUT</h1>
-      </div>
+       <Heading title="About"/>
       <div className={styles.content}></div>
       <div className={styles.bottom}></div>
     </div>
