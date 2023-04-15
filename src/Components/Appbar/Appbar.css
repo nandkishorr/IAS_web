@@ -8,6 +8,7 @@
   }
   .container{
     max-width: 780px;
+    position: fixed;
   }
   .navbar-nav {
     display: flex;
@@ -24,6 +25,8 @@
   .navbar{
     margin-left: 18%;
     margin-right: 18%;
+    backdrop-filter: blur(10px);
+
   }
   @media screen and (max-width: 992px) {
     .navbar{
