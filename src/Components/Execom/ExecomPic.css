@@ -1,0 +1,38 @@
+.execom-tile{
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.execom-pic{
+  width: 220px;
+  height: 220px;
+  margin-left: 8%;
+}
+.execom-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 300px 300px 300px 0px;
+}
+.execom-name-box{
+  display: flex;
+  margin-top: 180px;
+  margin-left: -5%;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border: 2px solid #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+}
+.execom-name-box p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.execom-name-box h3{
+  margin : 0;
+  font-weight: 500;
+}
