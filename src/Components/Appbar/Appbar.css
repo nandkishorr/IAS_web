@@ -33,6 +33,11 @@
   .navbar{
     backdrop-filter: blur(10px);
   }
+  .navbar.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   @media screen and (max-width: 992px) {
     .navbar{
       margin-left: 0;
