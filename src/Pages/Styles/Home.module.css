@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 .body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.55)),url(../../Assets/images/alain-pham-P_qvsF7Yodw-unsplash.jpg);
-    height: 92vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 9% 0 5% 8%;
+    padding: 150px 5% 5% 5%;
     font-family: Oswald;
 
 }
 .mid{
-    padding-top: 20px;
+    padding: 20px 20px 20px 0px;
     color: aliceblue;
     min-height: 450px;
     max-width: 1050px;
-    border: solid 3px white;
+    border: solid 3px rgba(255, 255, 255, 0.621);
 }
 .heading{
-    padding: 30px;
-    font-size: 110px;
+    padding: 30px 30px 30px 30px;
+    font-size: 15vh;
 }
 .span{
     margin-left: 30px;

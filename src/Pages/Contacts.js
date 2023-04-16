@@ -1,9 +1,10 @@
 import React from 'react'
+import Sidetitle from '../Components/Sidetitle'
 
 function Contacts() {
   return (
     <div>
-      hello contact
+     <Sidetitle title="CONTACTS"/>
     </div>
   )
 }

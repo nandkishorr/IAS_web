@@ -5,6 +5,7 @@ const heading={
     fontFamily:'Oswald',
     fontSize:'80px',
     position:'relative',
+    margin:"none"
 }
 function Heading(props) {
 

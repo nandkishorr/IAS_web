@@ -12,7 +12,7 @@ function Home() {
           <span>IEEE Student Branch Chapter</span><br />
           <span>College of Engineering Chengannur</span></h3> 
       </div>
-      <div style={{height:'1000px',}}></div>
+
     </div>
   )
 }

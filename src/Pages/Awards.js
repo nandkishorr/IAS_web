@@ -1,9 +1,10 @@
 import React from 'react'
+import Sidetitle from '../Components/Sidetitle'
 
 function Awards() {
   return (
     <div>
-      awards
+    <Sidetitle title="AWARDS"/>
     </div>
   )
 }

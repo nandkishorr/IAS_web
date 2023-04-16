@@ -1,9 +1,10 @@
 import React from 'react'
+import Sidetitle from '../Components/Sidetitle'
 
 function Events() {
   return (
-    <div className=''>
-      hello Events
+    <div >
+      <Sidetitle title="EVENTS"/>
     </div>
   )
 }

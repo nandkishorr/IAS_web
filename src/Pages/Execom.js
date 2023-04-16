@@ -3,6 +3,7 @@ import ExecomPic from '../Components/Execom/ExecomPic'
 import Heading from '../Components/Heading'
 import Line from '../Components/Line/Line'
 import './Styles/Execom.css'
+import Sidetitle from '../Components/Sidetitle'
 function Execom() {
   return (
     <div className='execom container-fluid'>
@@ -18,6 +19,7 @@ function Execom() {
           <ExecomPic position="Secretary" name='Rohan K Abraham' link="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-614810.jpg&fm=jpg"/>
          </div>
       </div>
+      <Sidetitle title="EXECOM"/>
     </div>
   )
 }

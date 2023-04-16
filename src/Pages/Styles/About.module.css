@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 .body{
-padding: 4% 2% 0% 10%;
-height: 95vh;
+padding: 90px 10% 0% 10%;
+height: 100vh;
 width: 100%;
-background-color: rgb(11, 11, 19);
 position: relative;
 color: aliceblue;
 }
@@ -14,8 +13,9 @@ color: aliceblue;
 .content{
     padding-top: 30px;
     font-size: 18px;
-    min-height: 500px;
+    min-height: 350px;
     max-width: 800px;
+    padding: 5%;
 
 }
 .box{
@@ -23,13 +23,25 @@ box-sizing: border-box;
 position: absolute;
 width: 800.08px;
 height: 470px;
-left: 408.63px;
-top: 119.7px;
-border: 1.8138px solid #FFFFFF;
+left: 30%;
+top: 22%;
+border: 1.8138px solid #ffffff82;
 border-left:none ;
 }
 .bottom{
     float:right;
     min-width: 200px;
     max-height: 300px;
+}
+
+@media only screen and (max-width:1200px) {
+    .bottom{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+    .content{
+        border: 1.8138px solid #ffffff80;
+    }
 }
