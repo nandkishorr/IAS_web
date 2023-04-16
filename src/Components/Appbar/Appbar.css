@@ -16,15 +16,22 @@
   }
   
   .nav-item {
-    flex: 1;
+    padding-right: 2%;
     text-align: center;
     white-space: nowrap;
   }
+  .navbar-nav .nav-link.active{
+    color: white;
+  }
+  .nav-item a{
+    color: white;
+  }
+  .nav-link:hover{
+    scale: 1.1;
+    color: white;
+  }
   .navbar{
-    margin-left: 18%;
-    margin-right: 18%;
     backdrop-filter: blur(10px);
-
   }
   @media screen and (max-width: 992px) {
     .navbar{

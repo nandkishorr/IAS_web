@@ -1,15 +1,19 @@
 import React from "react";
 import "./Appbar.css";
-import logo from "../../Assets/images/ias_logo_only.png";
-import { Link } from "react-router-dom";
+import IEEE_logo from "../../Assets/images/IEEE-logo-WHITE.png";
+import logo from "../../Assets/images/ias-png-white.png"
+
 function Navbar() {
   return (
-    <div>
-    <nav className="navbar navbar-expand-lg navbar-light bg-white ">
+    <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-light m-1">
       <div className="container-fluid">
-        <Link className="navbar-brand text-success font-weight-bold" href="/">
+        <a className="navbar-brand text-success font-weight-bold" href="/">
+          <img src={IEEE_logo} alt="" />
+        </a>
+        <a className="navbar-brand text-success font-weight-bold" href="/">
           <img src={logo} alt="" />
-        </Link>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,7 +25,7 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div className="collapse navbar-collapse justify-content-center " id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
               <a

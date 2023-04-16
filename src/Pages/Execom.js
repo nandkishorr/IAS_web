@@ -1,7 +1,7 @@
 import React from 'react'
 import ExecomPic from '../Components/Execom/ExecomPic'
 import Heading from '../Components/Heading'
-import Line from '../Components/Line'
+import Line from '../Components/Line/Line'
 import './Styles/Execom.css'
 function Execom() {
   return (
