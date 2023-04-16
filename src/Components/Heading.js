@@ -1,15 +1,16 @@
 import React from 'react'
 
 const heading={
+  width:'340px',
     fontFamily:'Oswald',
-    fontSize:'80px'
+    fontSize:'80px',
+    position:'relative',
 }
 function Heading(props) {
 
   return (
-    <div>
-      <h1 style={heading}>{props.title}</h1>
-    </div>
+      <h1 style={heading} >{props.title}</h1>
+  
   )
 }
 

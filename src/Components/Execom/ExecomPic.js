@@ -9,8 +9,8 @@ function ExecomPic(props) {
             </div>
             <div className="execom-name-box">
                 <center>
-                     <p className='execom-name'>postion</p>
-                    <h3 className='execom-name'>name</h3>
+                     <p >{props.position}</p>
+                    <h3 >{props.name}</h3>
                 </center>
             </div>
         </div>
