@@ -38,6 +38,9 @@
     top: 0;
     width: 100%;
   }
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0 ;
+  }
   @media screen and (max-width: 992px) {
     .navbar{
       margin-left: 0;
