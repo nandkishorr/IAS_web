@@ -4,11 +4,13 @@
   height: 400px;
 }
 .execom-pic{
+  z-index: 9;
   width: 220px;
   height: 220px;
   margin-left: 20px;
 }
 .execom-pic img{
+  z-index: 9;
   width: 100%;
   height: 100%;
   object-fit: cover;

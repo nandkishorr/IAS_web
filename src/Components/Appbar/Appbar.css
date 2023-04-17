@@ -38,6 +38,9 @@
     top: 0;
     width: 100%;
   }
+  .navbar-toggler{
+    margin-right: 3%;
+  }
   .navbar-toggler:focus {
     box-shadow: 0 0 0 0 ;
   }
@@ -52,4 +55,6 @@
     }
   }
     
-  
+  .navbar-toggler-icon {
+    color: white;
+  }

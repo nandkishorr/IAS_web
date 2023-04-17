@@ -6,7 +6,7 @@ import logo from "../../Assets/images/ias-png-white.png"
 function Navbar() {
   return (
     <div className="container-fluid">
-    <nav className="navbar navbar-expand-lg navbar-light mx-1 sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-dark mx-1 sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand text-success font-weight-bold" href="/">
           <img src={IEEE_logo} alt="" />
@@ -23,7 +23,7 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon text-white"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-center " id="navbarNav">
           <ul className="navbar-nav">
