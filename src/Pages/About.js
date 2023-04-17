@@ -22,7 +22,7 @@ Within four years since its inception, <b>IAS SBC CEC</b> has been able to bag 2
 <b>Chairperson</b> : Swathy Sekhar <br />
  <b>Vice-Chairperson</b> : Akash G Nair <br />
 <b>Secretary</b>: Rohan K Abraham</div>
-<div className={styles.bottom}><Sidetitle title="ABOUT"/></div>
+<Sidetitle title="ABOUT"/>
       
     </div>
   )
