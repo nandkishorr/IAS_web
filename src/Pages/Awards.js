@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidetitle from '../Components/Sidetitle'
+import Sidetitle from '../Components/Sidetitle/Sidetitle'
 
 function Awards() {
   return (

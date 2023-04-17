@@ -3,7 +3,7 @@ import ExecomPic from '../Components/Execom/ExecomPic'
 import Heading from '../Components/Heading'
 import Line from '../Components/Line/Line'
 import './Styles/Execom.css'
-import Sidetitle from '../Components/Sidetitle'
+import Sidetitle from '../Components/Sidetitle/Sidetitle'
 function Execom() {
   return (
     <div className='execom container-fluid'>

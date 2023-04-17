@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./Styles/About.module.css"
 import Heading from '../Components/Heading'
-import Sidetitle from '../Components/Sidetitle'
+import Sidetitle from '../Components/Sidetitle/Sidetitle'
 function About() {
   return (
     <div className={styles.body}>

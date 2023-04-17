@@ -5,8 +5,8 @@ function Sidetitle(props) {
         position:"absolute",
         width: "366.27px",
         height: "90.12px",
-        left: "1200.39px",
-        top: "380.64px",
+        left: "1250.39px",
+        top: "500.64px",
         fontFamily: 'Oswald',
         fontStyle: "normal",
         fontWeight: "500",
@@ -14,11 +14,9 @@ function Sidetitle(props) {
         lineHeight: "80px",
         letterSpacing:"1em",
         color: "#FFFFFF",
-        transform: "rotate(-90deg)"
-        
+        transform: "rotate(-90deg)", 
     }
   return (
-
   <h1 style={title}>{props.title}</h1>
   )
 }
