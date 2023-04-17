@@ -1,11 +1,10 @@
 import React from 'react'
 
 const heading={
-  width:'340px',
+  width:'450px',
     fontFamily:'Oswald',
     fontSize:'80px',
     position:'relative',
-    margin:"none"
 }
 function Heading(props) {
 
