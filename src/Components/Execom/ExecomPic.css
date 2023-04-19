@@ -2,40 +2,39 @@
   display: flex;
   justify-content: center;
   height: 400px;
+
 }
 .execom-pic{
-  z-index: 9;
   width: 220px;
   height: 220px;
   margin-left: 20px;
 }
 .execom-pic img{
-  z-index: 9;
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 300px 300px 300px 0px;
 }
 .execom-name-box{
+  
   display: flex;
   margin-top: 180px;
   margin-left: -90px;
   position: absolute;
   width: 180px;
   height: 180px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   align-items: center;
   justify-content: center;
-  color: white;
   
 }
-.execom-name-box p{
+.execom-name-box p{  
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   margin: 0;
 }
-.execom-name-box h3{
+.execom-name-box h3{  
   margin : 0;
   font-size: 17px;
   font-weight: 500;
