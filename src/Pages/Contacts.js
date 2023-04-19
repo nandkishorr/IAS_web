@@ -1,12 +1,14 @@
 import React from 'react'
 import "./Styles/Contact.css"
+import { BsFacebook, BsGlobe2, BsInstagram } from "react-icons/bs"
+import { FaLinkedinIn } from "react-icons/fa";
 import Sidetitle from '../Components/Sidetitle/Sidetitle'
 import Heading from '../Components/Heading'
 import Line from '../Components/Line/Line'
 function Contacts() {
   return (
     <div className='contact-main container-fluid'>
-      <div className='m-5'>
+      <div className='m-5 mb-0'>
         <div className='row'>
         <Heading title='CONTACT US' />
         <Line />
@@ -33,6 +35,15 @@ function Contacts() {
          </div>
       </div>
       <Sidetitle title="CONTACT US"/>
+      <div className='container-fluid'>
+        <div className='bottom'>
+        <div className='bot'><BsInstagram/></div>
+        <div className='bot'><BsFacebook/></div> 
+        <div className='bot'><FaLinkedinIn/></div> 
+        <div className='bot'><BsGlobe2/></div>  
+        <div className='botline'>@Ieeesbcec</div>
+        </div>
+      </div>
     </div>
   )
 }
