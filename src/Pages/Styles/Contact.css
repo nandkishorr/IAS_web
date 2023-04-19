@@ -1,3 +1,24 @@
 .contact-main{
-    padding: 35px 10% 0% 5%;
+    padding: 35px 0% 2% 5%;
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin:30px 30px 30px 0px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid white;
+    padding: 70px 30px 30px 30px;
+    max-height: 400px;
+    max-width: 500px;
+}
+.map{
+ 
+    margin:30px 0px 30px 0px;
+    max-width: 500px;
+    max-height: 400px;
 }
