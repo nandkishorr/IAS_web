@@ -22,7 +22,7 @@ function Events() {
         <EventTile title="Emergence" description="sfdksjhf" link="https://images.unsplash.com/photo-1681412330003-2ce8e52f4aa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
         <EventTile title="Emergence" description="sfdksjhf" link="https://images.unsplash.com/photo-1681412330003-2ce8e52f4aa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
       </div>
-      <Sidetitle title="EVENTS" />
+      <div><Sidetitle title="EVENTS" /></div>
     </div>
   )
 }

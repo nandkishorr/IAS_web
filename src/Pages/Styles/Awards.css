@@ -1,7 +1,8 @@
-.awards {
-  padding: 35px 10px 10px 10px;
-  display: flex;
-  flex-direction: row;
+
+.awards{
+    padding: 35px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
 }
 .line1 {
   margin-top: 50px;
@@ -19,12 +20,17 @@
   background-repeat: no-repeat;
   font-weight: bold;
 }
-.heading-title {
-  font-family: Oswald;
-  font-size: 80px;
+
+.heading-title{
+    margin: 0px 20px 0px 20px;
+    font-family: Oswald;
+    font-size: 80px;
 }
-@media only screen and (max-width: 450px) {
-  .line1 {
-    display: none;
-  }
+
+@media only screen and (max-width: 450px){
+    .line1{
+        display: none;
+    }
+    
 }
+
