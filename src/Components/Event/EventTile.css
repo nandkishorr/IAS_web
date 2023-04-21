@@ -16,6 +16,11 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px 10px 10px 10px;
+    transition: transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+  }
+  .event-pic img:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 30px rgba(10, 30, 101, 0.564)
   }
   .event-name-box{
     display: flex;
