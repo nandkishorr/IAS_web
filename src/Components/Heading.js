@@ -1,7 +1,7 @@
 import React from 'react'
 
 const heading={
-  width:'450px',
+  maxWidth:'450px',
     fontFamily:'Oswald',
     fontSize:'80px',
     position:'relative',

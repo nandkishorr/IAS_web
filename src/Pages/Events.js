@@ -9,8 +9,8 @@ function Events() {
 
   return (
     <div className="container-fluid">
-      <div className="row m-5">
-        <Heading title='Events' />
+      <div className="row m-5 events">
+        <Heading title='EVENTS' />
         <Line />
       </div>
       <div className='row mx-5' >

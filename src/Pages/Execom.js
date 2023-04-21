@@ -9,7 +9,7 @@ function Execom() {
     <div className='execom container-fluid'>
       <div className='m-5'>
         <div className='row'>
-        <Heading title='Execom' />
+        <Heading title='EXECOM' />
         <Line />
         </div>
          <div className='row execom-row'>
