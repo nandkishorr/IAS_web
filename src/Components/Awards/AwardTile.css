@@ -1,5 +1,8 @@
-.award-tile{
+.card{
     width:400px;
     height: 400px;
-    border:solid 2px white;
+    background-color: transparent;
+    border: 3px solid white;
+    border-top: none;
+    border-radius: 3px;
 }

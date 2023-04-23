@@ -1,13 +1,13 @@
 import React from 'react'
-import Heading from '../Components/Heading'
+import Heading from '../Components/Heading/Heading'
 import Line from '../Components/Line/Line'
 import './Styles/EventDetail.css'
 import Squares from '../Components/Squares/Squares'
 function EventDetail() {
     return (
         <div className='event-detail container-fluid mb-5'>
-            <div className="event-detail-header row">
-                <Heading title='EMER' />
+            <div className="event-detail-header  m-5 row">
+                <Heading title='EMERGENCE' />
                 <Line />
             </div>
             <div className='row'>

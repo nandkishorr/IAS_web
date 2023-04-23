@@ -33,4 +33,9 @@
     }
     
 }
-
+@media only screen and (max-width:650px){
+  .heading-title{
+    margin-top: 25px;
+      font-size: 40px;
+  }
+}

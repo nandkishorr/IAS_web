@@ -3,7 +3,7 @@ import "./Styles/Contact.css"
 import { BsFacebook, BsGlobe2, BsInstagram } from "react-icons/bs"
 import { FaLinkedinIn } from "react-icons/fa";
 import Sidetitle from '../Components/Sidetitle/Sidetitle'
-import Heading from '../Components/Heading'
+import Heading from '../Components/Heading/Heading'
 import Line from '../Components/Line/Line'
 function Contacts() {
   return (

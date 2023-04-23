@@ -4,6 +4,7 @@ import Sidetitle from "../Components/Sidetitle/Sidetitle"
 import { Carousel } from 'react-responsive-carousel'
 import Line from '../Components/Line/Line'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 import "./Styles/Gallery.css"
 function Gallery() {
   return (
