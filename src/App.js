@@ -9,6 +9,7 @@ import Events from './Pages/Events'
 import Navbar from './Components/Appbar/Appbar'
 import Awards from './Pages/Awards'
 import EventDetail from './Pages/EventDetail'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
                 <Route exact path='gallery' element={< Gallery/>}></Route>
                 <Route exact path='awards' element={< Awards/>}></Route>
                 <Route exact path='contacts' element={< Contacts/>}></Route>
-                <Route exact path='events/details' element={< EventDetail/>}></Route>
+                <Route exact path='events/Emergence' element={< EventDetail/>}></Route>
         </Routes>
       </div>
+      <div className='footer '><Footer/></div>
    </div>
   )
 }

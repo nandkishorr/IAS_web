@@ -12,7 +12,6 @@
 }
 .mid{
     padding: 20px 20px 20px 0px;
-   
     max-height: 650px;
     max-width: 1150px;
     border: solid 3px rgba(255, 255, 255, 0.621);
@@ -32,6 +31,9 @@
     font-weight: 100;
     font-size: 25px;
     
+}
+.footer{
+    height: 200px;
 }
 @media only screen and (max-width:700px){
     .heading1{

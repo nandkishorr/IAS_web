@@ -15,7 +15,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px 10px 10px 10px;
+    border-radius:3px;
     transition: transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
   }
   .event-pic img:hover{
@@ -27,8 +27,8 @@
     margin-top: 220px;
     margin-left: -100px;
     position: absolute;
-    width: 230px;
-    height: 230px;
+    width: 280px;
+    height: 280px;
     border: 2px solid #FFFFFF;
     align-items: center;
     justify-content: center;

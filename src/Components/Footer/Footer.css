@@ -1,0 +1,31 @@
+.footer-main{
+    display: flex;
+    padding: 5%;
+    width: 100%;
+    justify-items: center;
+}
+
+.footer-heading{
+    font-size: 20px;
+}
+.bottom1{
+  
+     display: flex;
+     flex-direction: row;
+     height: 50px;
+     width: 300px;
+     font-size: 25px;
+     
+ }
+ .bot1{
+     margin-left: 10px;
+     cursor: pointer;
+ }
+ .botline1{
+     cursor: pointer;
+     margin-left: 10px;
+     border-left: 3px solid;
+     padding-left: 10px;
+     color: rgba(245, 245, 245, 0.539);
+ 
+ }
