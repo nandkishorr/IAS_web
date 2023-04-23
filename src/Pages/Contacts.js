@@ -28,7 +28,7 @@ function Contacts() {
              style={{border:"0",borderRadius:"9px"}}
              allowfullscreen=""
               loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade">
+              referrerpolicy="no-referrer-when-downgrade" title='map'>
 
               </iframe>
           </div>
