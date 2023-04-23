@@ -1,6 +1,6 @@
 import React from 'react'
 import ExecomPic from '../Components/Execom/ExecomPic'
-import Heading from '../Components/Heading'
+import Heading from '../Components/Heading/Heading'
 import Line from '../Components/Line/Line'
 import './Styles/Execom.css'
 import Sidetitle from '../Components/Sidetitle/Sidetitle'

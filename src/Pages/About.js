@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Styles/About.module.css"
-import Heading from '../Components/Heading'
+import Heading from '../Components/Heading/Heading'
 import Sidetitle from '../Components/Sidetitle/Sidetitle'
 function About() {
   return (

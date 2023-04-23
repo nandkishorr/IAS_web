@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from"../Components/Heading"
+import Heading from"../Components/Heading/Heading"
 import Sidetitle from"../Components/Sidetitle/Sidetitle"
 import "./Styles/Gallery.css"
 function Gallery() {

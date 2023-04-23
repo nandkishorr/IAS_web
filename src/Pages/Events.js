@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidetitle from '../Components/Sidetitle/Sidetitle'
 import EventTile from '../Components/Event/EventTile'
-import Heading from '../Components/Heading'
+import Heading from '../Components/Heading/Heading'
 import Line from '../Components/Line/Line'
 import "./Styles/Events.css"
 function Events() {
