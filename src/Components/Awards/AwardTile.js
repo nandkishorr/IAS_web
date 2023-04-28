@@ -1,17 +1,14 @@
-import React from 'react'
-import"./AwardTile.css"
-function AwardTile() {
+
+import "./AwardTile.css"
+function AwardTile(props) {
   return (
-<div>
-  <div className=''></div>
-  <div className='card'></div>
-  </div>
+    <div className="my-card">
+      <div className='cards'>
+        <div className='content1'> IAS CMD OUTSTANDING LARGE CHAPTER AWARD 2021</div>
+      </div>
+    </div>
 
-
- 
-  )
+  );
 }
 
-export default AwardTile
-
-
+export default AwardTile;

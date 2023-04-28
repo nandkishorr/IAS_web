@@ -24,10 +24,10 @@ function App() {
                 <Route exact path='gallery' element={< Gallery/>}></Route>
                 <Route exact path='awards' element={< Awards/>}></Route>
                 <Route exact path='contacts' element={< Contacts/>}></Route>
-                <Route exact path='events/Emergence' element={< EventDetail/>}></Route>
+                <Route exact path='events/details' element={< EventDetail/>}></Route>
         </Routes>
       </div>
-      <div className='footer '><Footer/></div>
+      <Footer/>
    </div>
   )
 }

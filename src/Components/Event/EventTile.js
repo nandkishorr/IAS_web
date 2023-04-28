@@ -7,7 +7,6 @@ function EventTile( props ) {
                 <a href={`events/${props.title}`}>
                 <img src={props.link} alt='event-pic' />
                 </a>
-                
             </div>
             <div className="event-name-box">
                 <center>

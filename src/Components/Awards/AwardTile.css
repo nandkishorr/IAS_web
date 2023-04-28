@@ -1,8 +1,21 @@
-.card{
-    width:400px;
-    height: 400px;
-    background-color: transparent;
-    border: 3px solid white;
-    border-top: none;
-    border-radius: 3px;
+.my-card{
+    display:flex; 
+    justify-content: center;
+}
+.cards{
+    display:flex; 
+    width: 100%;
+      position: relative;
+    margin:1%;
+    max-width:1250px;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+.content1{
+    color: rgb(212, 213, 214);
+    font-size: 30px;
 }

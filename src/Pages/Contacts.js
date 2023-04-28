@@ -8,7 +8,7 @@ import Line from '../Components/Line/Line'
 function Contacts() {
   return (
     <div className='contact-main container-fluid'>
-      <div className='m-5 mb-0'>
+      <div className='m-3 mb-0'>
         <div className='row'>
         <Heading title='CONTACT US' />
         <Line />
