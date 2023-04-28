@@ -1,6 +1,5 @@
 .execom-tile{
   display: flex;
-  
   height: 400px;
 
 }
@@ -8,6 +7,7 @@
   width: 220px;
   height: 220px;
   margin-left: 20px;
+  z-index: 2;
 }
 .execom-pic img{
   width: 100%;
@@ -26,6 +26,7 @@
   border: 2px solid #ffffff8a;
   align-items: center;
   justify-content: center;
+  z-index: 0;
   
 }
 .execom-name-box p{  
