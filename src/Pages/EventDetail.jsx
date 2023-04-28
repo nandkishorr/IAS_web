@@ -3,7 +3,7 @@ import Heading from '../Components/Heading/Heading'
 import Line from '../Components/Line/Line'
 import './Styles/EventDetail.css'
 import Squares from '../Components/Squares/Squares'
-function EventDetail() {
+function EventDetail(props) {
     return (
         <div className='event-detail container-fluid mb-5'>
             <div className="event-detail-header  m-5 row">

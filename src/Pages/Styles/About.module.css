@@ -44,4 +44,7 @@ border-left:none ;
     .content{
         border: 1.8138px solid #ffffff80;
     }
+    .content{
+        font-size: smaller;
+    }
 }

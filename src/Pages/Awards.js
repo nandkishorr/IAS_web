@@ -12,9 +12,17 @@ function Awards() {
 
       <div className='line line1'></div> 
     </div> 
-    <div className='row mx-5'>
+      <div className='row '>
         <AwardTile/>
-      </div>
+        <AwardTile/>
+        <AwardTile/>
+        <AwardTile/>
+        <AwardTile/>
+     
+      </div> 
+   
+
+   
     <Sidetitle title="AWARDS"/>
     </div>
   )

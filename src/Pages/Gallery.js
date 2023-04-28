@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from "../Components/Heading"
+import Heading from "../Components/Heading/Heading"
 import Sidetitle from "../Components/Sidetitle/Sidetitle"
 import { Carousel } from 'react-responsive-carousel'
 import Line from '../Components/Line/Line'
@@ -15,7 +15,7 @@ function Gallery() {
       </div>
       <div className="carousel-part">
         <div className="carousel">
-        <Carousel showArrows={true} interval={2000} infiniteLoop={true} autoFocus={true} stopOnHover={false} autoPlay={true}>
+        <Carousel width={1000} showArrows={true} interval={2000} infiniteLoop={true} autoFocus={true} stopOnHover={false} autoPlay={true}>
         <div>
           <img alt='' src="https://images.unsplash.com/photo-1681412330003-2ce8e52f4aa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
         </div>
