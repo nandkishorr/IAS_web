@@ -4,7 +4,7 @@ import "./ExecomPic.css"
 function ExecomPic(props) {
     return (
         <div className='execom-tile col'>
-            <div className='execom-pic '>
+            <div className='execom-pic'>
                 <img src={props.link} alt='execom-pic' />
             </div>
             <div className="execom-name-box">

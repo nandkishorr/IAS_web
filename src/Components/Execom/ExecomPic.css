@@ -1,13 +1,11 @@
 .execom-tile{
   display: flex;
-  justify-content: center;
   height: 400px;
 
 }
 .execom-pic{
   width: 220px;
   height: 220px;
-  margin-left: 20px;
 }
 .execom-pic img{
   width: 100%;
@@ -16,7 +14,6 @@
   border-radius: 300px 300px 300px 0px;
 }
 .execom-name-box{
-  
   display: flex;
   margin-top: 180px;
   margin-left: -90px;
