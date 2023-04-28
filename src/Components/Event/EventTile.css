@@ -25,10 +25,10 @@
   .event-name-box{
     display: flex;
     margin-top: 220px;
-    margin-left: -100px;
+    margin-left: 17px;
     position: absolute;
-    width: 280px;
-    height: 280px;
+    width: 310px;
+    height: 210px;
     border: 2px solid #FFFFFF;
     align-items: center;
     justify-content: center;
