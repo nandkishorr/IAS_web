@@ -12,12 +12,10 @@ function Awards() {
 
       <div className='line line1'></div> 
     </div> 
-      <div className='row '>
-        <AwardTile/>
-        <AwardTile/>
-        <AwardTile/>
-        <AwardTile/>
-        <AwardTile/>
+      <div className='row m-5'>
+        <AwardTile title="IAS CMD OUTSTANDING LARGE CHAPTER AWARD 2021"/>
+        <AwardTile title="IAS CMD MOST HAPPENING CHAPTER AWARD 2022"/>
+       
      
       </div> 
    

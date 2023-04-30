@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   return (
     <div className='footer-main'>
-        <div className='row row-cols-1 row-cols-sm-5 my-5'>
+        <div className='row row-cols-1 row-cols-lg-5 '>
            <div className='col m-1'>
             <h3 className='footer-heading'>IAS SBC CEC </h3>
             <h6>HOME</h6>

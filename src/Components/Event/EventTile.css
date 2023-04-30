@@ -24,11 +24,11 @@
   }
   .event-name-box{
     display: flex;
-    margin-top: 220px;
-    margin-left: -100px;
+    margin-top: 230px;
+    margin-left: 17px;
     position: absolute;
-    width: 280px;
-    height: 280px;
+    width: 310px;
+    height: 210px;
     border: 2px solid #FFFFFF;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@
   }
   .event-name-box p{
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     margin: 0;
   }
@@ -45,4 +45,5 @@
     margin : 0;
     font-size: 17px;
     font-weight: 300;
+    font-size: smaller;
   }
