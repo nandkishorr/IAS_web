@@ -1,8 +1,8 @@
 import React from "react";
 import "./Appbar.css";
 
-import logo from "../../Assets/images/ias-png-white.png"
-import logo1 from "../../Assets/images/IEEE-logo-WHITE.png";
+import logo from "../../Assets/images/ias-png-white.png";
+import logo1 from "../../Assets/images/ieee_logo.png";
 
 function Appbar() {
   return (

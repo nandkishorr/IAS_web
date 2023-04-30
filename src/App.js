@@ -6,7 +6,7 @@ import Contacts from './Pages/Contacts'
 import Execom from './Pages/Execom'
 import Gallery from './Pages/Gallery'
 import Events from './Pages/Events'
-import Navbar from './Components/Appbar/Appbar'
+import Appbar from './Components/Appbar/Appbar'
 import Awards from './Pages/Awards'
 import EventDetail from './Pages/EventDetail'
 import Footer from './Components/Footer/Footer'
@@ -14,7 +14,7 @@ import details from "./Pages/details"
 function App() {
   return (
    <div className='App'>
-    <div className='header'><Navbar/></div>
+    <div className='header'><Appbar/></div>
     <div className='main-body'>
         <Routes>
                 <Route  path='/' element={< Home />}></Route>
