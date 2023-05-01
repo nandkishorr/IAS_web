@@ -1,5 +1,5 @@
 { "event":[
-    {   "id":0,
+    {   "id":7,
        "title":"CANDLE",
         "qoute":"“The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.”_~ Bill Gates_",
         "intro":"As technology advances, software development gets easier by the day. Illumination is a tool used for visually designing and developing software without writing a single line of code by hand.",
@@ -9,7 +9,7 @@
         "register":"http://bit.ly/CANDLE_workshop"
     },
    
-      {"id":1,
+      {"id":6,
      "title":"LEARN",    "qoute":"“Develop a passion for learning. If you do, you will never cease to grow.”_~ Anthony J. D’Angelo_",
     "intro":"After learning a chapter, it is quite common that students can't understand the concept behind certain topics.",
     "content":"IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is organizing *'LEARN - Initiative For Academic Excellence'*, to help you to solve your doubts and discuss topics covered in your academic syllabus. The event is exclusively for CEC IEEE members. We hope you make use of this opportunity and take the right steps towards your future.",
@@ -18,7 +18,7 @@
     "register":"http://bit.ly/LEARN_IAS_"
     },
 
-      { "id":2, 
+      { "id":5, 
       "title":"FOSTER",
     "qoute":"“We will either find a way, or make one.”_~ Hannibal_",
     "intro":"A great way to enhance your learning curve; is by working on a project. Projects not only do provide bonus points to your resume, but it also helps you extensively develop your competence in a skill",
@@ -27,7 +27,7 @@
     "image":"https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FIMG-20220309-WA0225.jpg?alt=media&token=a842570c-6bd5-4c34-a4bb-180a202a79d3",
     "register":"http://bit.ly/FOSTER_IAS"
     },
-    {"id":3,   
+    {"id":4,   
      "title":"TECHNOPHILIA",
     "qoute":"“Hard work beats talent when talent doesn't work hard.”_~ Tim Notke_",
     "intro":"Hardware is like your body and your mind is your software. In today's world, the technology we use is an equal integration of hardware and software working together to perform our everyday tasks.",
@@ -38,7 +38,7 @@
     },
 
     {   
-    "id":4,
+    "id":3,
     "title":"VOLTARE",
     "qoute":"“In learning, you will teach, and in teaching, you will learn.”~ Phil Collins",
     "intro":"Circuit analysis is crucial for understanding and designing complex circuits. This is where MATLAB comes into play, helping us perform mathematical calculations, design, analysis, and optimization while delivering precise outputs",
@@ -49,7 +49,7 @@
     },
 
     {   
-    "id":5,
+    "id":2,
     "title":" EMERGENCE 2.0",
     "qoute":"“It's through curiosity and looking at opportunities in new ways that we've always mapped our paths.”~Michael Dell",
     "intro":"In this era of advancing technology, it is very essential for the young minds to explore and unravel the vast possibilities of technology that are beyond their curriculum.",
@@ -58,7 +58,7 @@
     "image":"https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2017.07.18.jpg?alt=media&token=15322469-9c84-42d2-890a-947a4217795b",
     "register":""
     },
-   {    "id":6,  
+   {    "id":1,  
     "title":"EXPLORE IAS",
     "qoute":"“Change is the result of all true learning.”~Leo Buscaglia",
     "intro":"",
@@ -67,7 +67,7 @@
     "image":"https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2011.48.12.jpg?alt=media&token=4c4bc271-b21e-4d1b-a138-1f340dea35e1",
     "register":""
     },
-    { "id":7,
+    { "id":0,
     "title":"VOLTARE",
     "qoute":"“The more I live, the more I learn. The more I learn, the more I realise, the less I know.”~Michel Legrand",
     "intro":"MATLAB serves as a software platform specifically designed to aid in the analysis and design of diverse systems and products.",
