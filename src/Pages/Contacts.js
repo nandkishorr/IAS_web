@@ -8,25 +8,25 @@ import Line from '../Components/Line/Line'
 function Contacts() {
   return (
     <div className='container-fluid'>
-      <div className='m-3'>
+      <div className='m-4'>
         <div className='row contact-main'>
         <Heading title='CONTACT US' />
         <Line />
-        </div><br /><br />
-         <div className='row row-cols-1 row-cols-lg-2 m-1 content-main '>
-          <div className='col content'>
+        </div>
+         <div className='row row-cols-1 row-cols-lg-2 my-5 content-main '>
+          <div className='col  m-3 content'>
             <h2><span>IEEE Student Branch </span><br />
             <span>College of Engineering Chengannur</span><br /> 
             <span>Alappuzha Kerala</span><br />
             <span>Pin:689121</span>
             </h2>
           </div>
-          <div className='col map'>
+          <div className='col my-3 map'>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5229.627861662749!2d76.61570370341182!3d9.317201373845165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0622ea027eb08f%3A0x41105b207db821c6!2sCollege%20of%20Engineering%20Chengannur!5e0!3m2!1sen!2sin!4v1681872299096!5m2!1sen!2sin"
            width="100%"
             height="400px"
              style={{border:"0",borderRadius:"9px"}}
-             allowfullscreen="lazy"
+             allowfullscreen="true"
              
               referrerpolicy="no-referrer-when-downgrade" title='map'>
 

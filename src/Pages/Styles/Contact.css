@@ -1,10 +1,14 @@
 .contact-main{
-    padding: 35px 0 2% 0;
+    padding: 45px 0 2% 0;
+   
+}
+.content-main{
+    justify-content: space-evenly;
     
 }
 
 .content{
-    margin:5%;
+    
     position: relative;
     justify-content: center;
     align-items: center;
@@ -16,7 +20,7 @@
 }
 .map{
  
-    margin:5%;
+    
     max-width: 500px;
     max-height:380px;
 }

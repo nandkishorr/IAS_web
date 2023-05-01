@@ -58,16 +58,7 @@
     "image":"https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2017.07.18.jpg?alt=media&token=15322469-9c84-42d2-890a-947a4217795b",
     "register":""
     },
-    { "id":6,
-    "title":"VOLTARE",
-    "qoute":"“The more I live, the more I learn. The more I learn, the more I realise, the less I know.”~Michel Legrand",
-    "intro":"MATLAB serves as a software platform specifically designed to aid in the analysis and design of diverse systems and products.",
-    "content":"IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is hosting Voltare, a week-long bootcamp on circuit designing and analysis on Matlab handled by Dr M.V Rajesh, Chapter Advisor-IAS SBC CEC, Chair-Kochi subsection.",
-    "date":"Date:10th April 2023",
-    "image":"https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2011.47.17.jpg?alt=media&token=1e040d66-e8e7-4799-8246-3d30092fe974",
-    "register":"http://min.lc/VOLTARE*_"
-    },
-  {    "id":7,  
+   {    "id":6,  
     "title":"EXPLORE IAS",
     "qoute":"“Change is the result of all true learning.”~Leo Buscaglia",
     "intro":"",
@@ -75,7 +66,17 @@
     "date":"Date:5th January 2023",
     "image":"https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2011.48.12.jpg?alt=media&token=4c4bc271-b21e-4d1b-a138-1f340dea35e1",
     "register":""
+    },
+    { "id":7,
+    "title":"VOLTARE",
+    "qoute":"“The more I live, the more I learn. The more I learn, the more I realise, the less I know.”~Michel Legrand",
+    "intro":"MATLAB serves as a software platform specifically designed to aid in the analysis and design of diverse systems and products.",
+    "content":"IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is hosting Voltare, a week-long bootcamp on circuit designing and analysis on Matlab handled by Dr M.V Rajesh, Chapter Advisor-IAS SBC CEC, Chair-Kochi subsection.",
+    "date":"Date:10th April 2023",
+    "image":"https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2011.47.17.jpg?alt=media&token=1e040d66-e8e7-4799-8246-3d30092fe974",
+    "register":"http://min.lc/VOLTARE*_"
     }
+ 
 
     ]
     

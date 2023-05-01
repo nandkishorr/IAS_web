@@ -6,9 +6,9 @@ function Home() {
       <div className="homebody">
         <div className='container-fluid mid'>
           <h1 className='heading1 row'>
-            <span >INDUSTRIAL</span><br />
-            <span className='col-md-7 col-sm-12'>APPLICATION</span>
-            <span className='span1 col-md-5 col-sm-12'>SOCIETY</span>
+            <span >INDUSTRY</span><br />
+            <span className=' col-lg-8 col-sm-12'>APPLICATIONS</span>
+            <span className='span1  col-lg-4 col-sm-12'>SOCIETY</span>
           </h1>
           <h3 className='subheading'>
             <span>IEEE Student Branch Chapter</span><br />
