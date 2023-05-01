@@ -7,13 +7,13 @@ import Heading from '../Components/Heading/Heading'
 import Line from '../Components/Line/Line'
 function Contacts() {
   return (
-    <div className='contact-main container-fluid'>
-      <div className='m-3 mb-0'>
-        <div className='row'>
+    <div className='container-fluid'>
+      <div className='m-3'>
+        <div className='row contact-main'>
         <Heading title='CONTACT US' />
         <Line />
         </div><br /><br />
-         <div className='row row-cols-1 row-cols-sm-1 row-cols-lg-2 m-1 content-main '>
+         <div className='row row-cols-1 row-cols-lg-2 m-1 content-main '>
           <div className='col content'>
             <h2><span>IEEE Student Branch </span><br />
             <span>College of Engineering Chengannur</span><br /> 
@@ -26,7 +26,7 @@ function Contacts() {
            width="100%"
             height="400px"
              style={{border:"0",borderRadius:"9px"}}
-             allowfullscreen=""
+             allowfullscreen="lazy"
              
               referrerpolicy="no-referrer-when-downgrade" title='map'>
 
@@ -35,7 +35,7 @@ function Contacts() {
          </div>
       </div>
       <Sidetitle title="CONTACT US"/>
-      <div className='container-fluid'>
+      
         <div className='bottom'>
         <div className='bot'><BsInstagram/></div>
         <div className='bot'><BsFacebook/></div> 
@@ -44,7 +44,7 @@ function Contacts() {
         <div className='botline'>@Ieeesbcec</div>
         </div>
       </div>
-    </div>
+  
   )
 }
 

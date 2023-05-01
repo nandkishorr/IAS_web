@@ -2,8 +2,9 @@
     background-color: rgb(11, 11, 14);
     display: flex;
     padding: 3% 0 3% 0;
-    width: 100%;
+    
     justify-content: space-evenly;
+    overflow-x: hidden  ;
     
    
 }
@@ -46,3 +47,11 @@
         justify-content: end;
     }
  }
+ @media only screen and (max-width:990px) {
+    h6{
+        font-size:small;
+    }
+    .footer-heading{
+        font-size: medium;
+    }
+}

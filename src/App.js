@@ -18,13 +18,13 @@ function App() {
     <div className='main-body'>
         <Routes>
                 <Route  path='/' element={< Home />}></Route>
-                <Route exact path='about' element={< About />}></Route>  
-                <Route exact path='execom' element={< Execom />}></Route>
-                <Route exact path='events' element={< Events/>}></Route>
-                <Route exact path='gallery' element={< Gallery/>}></Route>
-                <Route exact path='awards' element={< Awards/>}></Route>
-                <Route exact path='contacts' element={< Contacts/>}></Route>
-                 {  details.event.map((events,i)=> <Route exact path={`events/${events.title}`} element={< EventDetail/>}></Route>
+                <Route exact path='/about' element={< About />}></Route>  
+                <Route exact path='/execom' element={< Execom />}></Route>
+                <Route exact path='/events' element={< Events/>}></Route>
+                <Route exact path='/gallery' element={< Gallery/>}></Route>
+                <Route exact path='/awards' element={< Awards/>}></Route>
+                <Route exact path='/contacts' element={< Contacts/>}></Route>
+                 {  details.event.map((events,i)=> <Route exact path={`/events/${events.title}`} element={< EventDetail/>}></Route>
                  )}
                
                 {/* <Route exact path='events/Candle' element={< EventDetail/>}></Route>

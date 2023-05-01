@@ -8,24 +8,25 @@ function Footer() {
     <div className='footer-main'>
         <div className='row row-cols-1 row-cols-lg-5 '>
            <div className='col m-1'>
-            <h3 className='footer-heading'>IAS SBC CEC </h3>
-            <h6>HOME</h6>
-            <h6>ABOUT</h6>
-            <h6>EXECOM</h6>
+           <h3 className='footer-heading'>IAS SBC CEC </h3>
+            <h6><a href='/' className='nav-link'>HOME</a></h6>
+            <h6><a href='/about' className='nav-link'>ABOUT</a></h6>
+            <h6><a href='/execom' className='nav-link'>EXECOM</a></h6>
            </div>
            <div className='col m-1'>
            <h3 className='footer-heading'>ABOUT</h3>
-            <h6>IEEE IAS</h6>
-            <h6>ACHIEVEMENTS</h6>
-            <h6>IEEE SBC</h6>
+            <h6><a href='/about' className='nav-link'>IEEE IAS</a></h6>
+            <h6><a href='/awards' className='nav-link'>ACHIEVEMENTS</a></h6>
+            <h6><a href='/awards' className='nav-link'>IEEE SBC</a></h6>
             
            </div>
            <div className='col m-1'>
            <h3 className='footer-heading'>ENQUIRY</h3>
-            <h6>CONTACT US</h6>
+            <h6><a href='/contacts' className='nav-link'>CONTACT US</a></h6>
             <h6>WRITE A MAIL</h6>
-            <h6>LOCATION</h6>
+            <h6><a href='/contacts' className='nav-link'>LOCATION</a></h6>
            </div>
+
            <div className='col m-1'>
         <div className='bottom1'>
         <div className='bot1'><BsInstagram/></div>

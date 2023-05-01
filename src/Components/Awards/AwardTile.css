@@ -1,6 +1,7 @@
 .my-card{
     display:flex; 
     justify-content: center;
+
 }
 .cards{
     display:flex; 
